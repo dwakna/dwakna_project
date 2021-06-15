@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.SUFFIXES	Makefile	/^.SUFFIXES = .c -o$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -g -Wall --std=c++14$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+Data	parser.h	/^	Data() {};$/;"	f	struct:Data
+Data	parser.h	/^	Data(int x_coor, int y_coor, int width, int height)$/;"	f	struct:Data
+Data	parser.h	/^struct Data$/;"	s
+Drawer	drawer.cpp	/^Drawer::Drawer()$/;"	f	class:Drawer
+Drawer	drawer.cpp	/^Drawer::Drawer(vector<Data> &vec)$/;"	f	class:Drawer
+Drawer	drawer.h	/^class Drawer$/;"	c
+INC	Makefile	/^INC=\\$/;"	m
+IsImg	storageIO.cpp	/^bool StorageIO::IsImg(string fileName)$/;"	f	class:StorageIO
+LIBS	Makefile	/^LIBS=\\$/;"	m
+LIBS_DIR	Makefile	/^LIBS_DIR=\\$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+Parser	parser.cpp	/^Parser::Parser(string objectrStr)$/;"	f	class:Parser
+Parser	parser.h	/^	Parser() {string objectStr};$/;"	f	class:Parser
+Parser	parser.h	/^	Parser() {}$/;"	f	class:Parser
+Parser	parser.h	/^class Parser$/;"	c
+SRCS	Makefile	/^SRCS = \\$/;"	m
+StorageIO	storageIO.cpp	/^StorageIO::StorageIO()$/;"	f	class:StorageIO
+StorageIO	storageIO.cpp	/^StorageIO::StorageIO(string config)$/;"	f	class:StorageIO
+StorageIO	storageIO.h	/^class StorageIO$/;"	c
+TARGET	Makefile	/^TARGET = cvtest$/;"	m
+drawRectangle	drawer.cpp	/^void drawRectangle(char* buffer, int length)$/;"	f
+getFileList	storageIO.cpp	/^vector<string> StorageIO::getFileList(string pathName)$/;"	f	class:StorageIO
+height	parser.h	/^	int x_coor, y_coor, width, height;$/;"	m	struct:Data
+lastFile_	storageIO.h	/^	string lastFile_ = NULL;$/;"	m	class:StorageIO
+length_	storageIO.h	/^    int length_;$/;"	m	class:StorageIO
+main	checkTime.cpp	/^int main()$/;"	f
+main	cvTest.cpp	/^int main()$/;"	f
+main	dtest.cpp	/^int main()$/;"	f
+main	filetest.cpp	/^int main()$/;"	f
+main	jsonParsing.cpp	/^int main()$/;"	f
+main	main.cpp	/^int main()$/;"	f
+main	test.cpp	/^int main()$/;"	f
+membuf_	storageIO.h	/^    char *membuf_;$/;"	m	class:StorageIO
+objCoor_	parser.h	/^	vector<Data> objCoor_;$/;"	m	class:Parser
+objectStr_	parser.h	/^	string objectStr_;$/;"	m	class:Parser
+parsing	parser.cpp	/^void Parser::parsing()$/;"	f	class:Parser
+pathList_	storageIO.h	/^    vector<string> pathList_;$/;"	m	class:StorageIO
+readImg	storageIO.cpp	/^void StorageIO::readImg(string fileName)$/;"	f	class:StorageIO
+requestAzure	requestAzure.h	/^class requestAzure$/;"	c
+requestImg	requestAzure.cpp	/^void requestAzure::requestImg()$/;"	f	class:requestAzure
+responseJson	requestAzure.cpp	/^void requestAzure::responseJson()$/;"	f	class:requestAzure
+responseJson	requestAzure.h	/^	string responseJson;	$/;"	m	class:requestAzure
+vec_	drawer.h	/^	vector<Data> vec_;$/;"	m	class:Drawer
+width	parser.h	/^	int x_coor, y_coor, width, height;$/;"	m	struct:Data
+writeImg	storageIO.cpp	/^void StorageIO::writeImg(string name)$/;"	f	class:StorageIO
+x_coor	parser.h	/^	int x_coor, y_coor, width, height;$/;"	m	struct:Data
+y_coor	parser.h	/^	int x_coor, y_coor, width, height;$/;"	m	struct:Data

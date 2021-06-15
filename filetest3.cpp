@@ -34,7 +34,7 @@ int main()
 	//std::string str = "/home/ict01/workplace/OJT/StorageIO/img/images.png";
 	//auto tmp = utility::conversions::to_string_t(str);
     Concurrency::streams::istream imgBody =
-        fstream::open_istream("image1.png").get();
+        fstream::open_istream("/home/ict01/workplace/OJT/StorageIO/img/images.png").get();
 	
 	//auto stream = fstream::open_istream(U("/home/ict01/workplace/OJT/StorageIO/img/images.png")).get();
 	//request.body().read_to_end(stream.streambuf()).wait();

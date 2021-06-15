@@ -23,23 +23,23 @@
 #include<time.h>
 #include<unistd.h>
 #include<cstdlib>
-//#include "vomslog"
+//#include "voms_log"
 
 using namespace std;
 
 class StorageIO
 {
+	string lastFile_ = NULL;
     char *membuf_;
     bool IsImg(string fileName);
     //bool checkTime();
 public:
     vector<string> getFileList(string pathName);
-    StorageIO(){}
+    StorageIO()
     StorageIO(string config);
     vector<string> pathList_;
-    int length_;
     void readImg(string fileName);
     void writeImg(string name);
-   // bool checkFile();
 };
+
 
